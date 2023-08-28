@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom';
 
 const Main = () => {
     return (
-        <div>
+        <div className=' w-full md:w-[1380px] mx-auto'>
             <Navbar></Navbar>
             <Outlet></Outlet>
         </div>

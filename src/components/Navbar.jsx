@@ -37,11 +37,11 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-[1170]">
+    <nav className=" w-full md:w-[1170px] mx-auto mt-8">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label tabIndex={0} className="btn btn-ghost text-white lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -64,7 +64,7 @@ const Navbar = () => {
               {menu.map((item) => (
                 <li key={item.id}>
                   {" "}
-                  <Link to={item.slug}> {item.title} </Link>{" "}
+                  <Link className="text-[14px] font-semibold "  to={item.slug}> {item.title} </Link>{" "}
                 </li>
               ))}
             </ul>
@@ -80,7 +80,7 @@ const Navbar = () => {
              menu.map((item) => (
                 <li key={item.id}>
                   {" "}
-                  <Link className="text-[14px] font-semibold" to={item.slug}> {item.title} </Link>{" "}
+                  <Link className="text-[14px] font-semibold text-white" to={item.slug}> {item.title} </Link>{" "}
                 </li>
               ))
            }
