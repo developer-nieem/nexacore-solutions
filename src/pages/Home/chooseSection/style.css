@@ -1,0 +1,6 @@
+.choose{
+    background: url('/choose.JPG') , #051955;;
+    background-blend-mode: overlay;
+    background-size: cover;
+    border-radius: 8px;
+}

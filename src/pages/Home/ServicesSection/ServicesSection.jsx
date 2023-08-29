@@ -17,17 +17,17 @@ const ServicesSection = () => {
            {/* services items start here  */}
 
            <div className="row my-10">
-            <div className="md:col-4 space-y-3">
+            <div className="md:col-4 space-y-3 my-7">
                 <img className='rounded-md' src="/services1.jpeg" alt="services" />
                 <h2 className='text-2xl font-semibold'>Strategic Consulting</h2>
                 <p className='text-lg'>our suite of services is designed to elevate your business to new heights.</p>
             </div>
-            <div className="md:col-4 space-y-3">
+            <div className="md:col-4 space-y-3 my-7">
                 <img className='rounded-md' src="/services2.jpeg" alt="services" />
                 <h2 className='text-2xl font-semibold'>Digital Transformation</h2>
                 <p className='text-lg'>our suite of services is designed to elevate your business to new heights.</p>
             </div>
-            <div className="md:col-4 space-y-3">
+            <div className="md:col-4 space-y-3 my-7">
                 <img className='rounded-md' src="/services3.jpg" alt="services" />
                 <h2 className='text-2xl font-semibold'>Financial Advisory</h2>
                 <p className='text-lg'>our suite of services is designed to elevate your business to new heights.</p>
